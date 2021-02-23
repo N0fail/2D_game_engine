@@ -5,7 +5,7 @@
 
 namespace VAPI {
 
-	bool LoadInstanceLevelVulkanFunction(VkInstance instance);
+	bool LoadInstanceLevelVulkanFunctions(VkInstance instance);
 
 } // namespace VAPI
 

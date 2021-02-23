@@ -142,33 +142,42 @@
   <ItemGroup>
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="ConnectVulkanLoaderLibrary.cpp" />
+    <ClCompile Include="CreateLogicalDevice.cpp" />
     <ClCompile Include="CreateVkInstanceWithExtentions.cpp" />
     <ClCompile Include="EnumerateExtentionsSupportedByDevice.cpp" />
     <ClCompile Include="EnumerateExtentionsSupportedByDevice.h" />
     <ClCompile Include="EnumeratePhysicalDevices.cpp" />
     <ClCompile Include="GetDeviceQueueFamilies.cpp" />
+    <ClCompile Include="GetDeviceQueues.cpp" />
     <ClCompile Include="GetQueueFamilyIndexWIthCapabilities.cpp" />
+    <ClCompile Include="LoadDeviceLevelVulkanFunctions.cpp" />
+    <ClCompile Include="LoadDeviceLevelVulkanFunctionsFromExtentions.cpp" />
     <ClCompile Include="LoadFunctionExportedFromVulkanLoaderLibrary.cpp" />
     <ClCompile Include="LoadGlobalLevelFunctions.cpp" />
     <ClCompile Include="LoadInstanceExtentions.cpp" />
-    <ClCompile Include="LoadInstanceLevelVulkanFunction.cpp" />
-    <ClCompile Include="LoadInstanceLevelVulkanFunctionFromExtentions.cpp" />
+    <ClCompile Include="LoadInstanceLevelVulkanFunctions.cpp" />
+    <ClCompile Include="LoadInstanceLevelVulkanFunctionsFromExtentions.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tools.cpp" />
     <ClCompile Include="VulkanFunctions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AllHeaders.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="ConnectVulkanLoaderLibrary.h" />
+    <ClInclude Include="CreateLogicalDevice.h" />
     <ClInclude Include="CreateVkInstanceWithExtentions.h" />
     <ClInclude Include="EnumeratePhysicalDevices.h" />
     <ClInclude Include="GetDeviceQueueFamilies.h" />
+    <ClInclude Include="GetDeviceQueues.h" />
     <ClInclude Include="GetQueueFamilyIndexWIthCapabilities.h" />
+    <ClInclude Include="LoadDeviceLevelVulkanFunctions.h" />
+    <ClInclude Include="LoadDeviceLevelVulkanFunctionsFromExtentions.h" />
     <ClInclude Include="LoadFunctionExportedFromVulkanLoaderLibrary.h" />
     <ClInclude Include="LoadGlobalLevelFunctions.h" />
     <ClInclude Include="LoadInstanceExtentions.h" />
-    <ClInclude Include="LoadInstanceLevelVulkanFunction.h" />
-    <ClInclude Include="LoadInstanceLevelVulkanFunctionFromExtentions.h" />
+    <ClInclude Include="LoadInstanceLevelVulkanFunctions.h" />
+    <ClInclude Include="LoadInstanceLevelVulkanFunctionsFromExtentions.h" />
     <ClInclude Include="Tools.h" />
     <ClInclude Include="vk_platform.h" />
     <ClInclude Include="vulkan.h" />

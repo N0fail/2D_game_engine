@@ -39,12 +39,6 @@
     <ClCompile Include="CreateVkInstanceWithExtentions.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="LoadInstanceLevelVulkanFunction.cpp">
-      <Filter>Файлы ресурсов</Filter>
-    </ClCompile>
-    <ClCompile Include="LoadInstanceLevelVulkanFunctionFromExtentions.cpp">
-      <Filter>Файлы ресурсов</Filter>
-    </ClCompile>
     <ClCompile Include="EnumeratePhysicalDevices.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
@@ -58,6 +52,27 @@
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
     <ClCompile Include="GetQueueFamilyIndexWIthCapabilities.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateLogicalDevice.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadInstanceLevelVulkanFunctions.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadInstanceLevelVulkanFunctionsFromExtentions.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadDeviceLevelVulkanFunctions.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadDeviceLevelVulkanFunctionsFromExtentions.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="GetDeviceQueues.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>
@@ -98,12 +113,6 @@
     <ClInclude Include="CreateVkInstanceWithExtentions.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="LoadInstanceLevelVulkanFunction.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="LoadInstanceLevelVulkanFunctionFromExtentions.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="EnumeratePhysicalDevices.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
@@ -114,6 +123,24 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Tools.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateLogicalDevice.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadDeviceLevelVulkanFunctions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadDeviceLevelVulkanFunctionsFromExtentions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadInstanceLevelVulkanFunctions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadInstanceLevelVulkanFunctionsFromExtentions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GetDeviceQueues.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

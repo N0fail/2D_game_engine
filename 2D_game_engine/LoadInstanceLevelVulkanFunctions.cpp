@@ -1,7 +1,7 @@
-#include "LoadInstanceLevelVulkanFunction.h"
+#include "LoadInstanceLevelVulkanFunctions.h"
 
 namespace VAPI {
-	bool LoadInstanceLevelVulkanFunction(VkInstance instance) {
+	bool LoadInstanceLevelVulkanFunctions(VkInstance instance) {
         // Load core Vulkan API instance-level functions
 #define INSTANCE_LEVEL_VULKAN_FUNCTION( name )                                  \
         name = (PFN_##name)vkGetInstanceProcAddr( instance, #name );                \

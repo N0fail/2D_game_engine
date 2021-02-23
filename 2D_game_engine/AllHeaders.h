@@ -1,4 +1,3 @@
-#pragma once
 #ifndef ALL_HEADERS
 #define ALL_HEADERS
 #include "ConnectVulkanLoaderLibrary.h"
@@ -6,11 +5,15 @@
 #include "LoadGlobalLevelFunctions.h"
 #include "LoadInstanceExtentions.h"
 #include "CreateVkInstanceWithExtentions.h"
-#include "LoadInstanceLevelVulkanFunction.h"
-#include "LoadInstanceLevelVulkanFunctionFromExtentions.h"
+#include "LoadInstanceLevelVulkanFunctions.h"
+#include "LoadInstanceLevelVulkanFunctionsFromExtentions.h"
 #include "EnumeratePhysicalDevices.h"
 #include "EnumerateExtentionsSupportedByDevice.h"
 #include "GetDeviceQueueFamilies.h"
 #include "GetQueueFamilyIndexWIthCapabilities.h"
 #include "Tools.h"
+#include "CreateLogicalDevice.h"
+#include "LoadDeviceLevelVulkanFunctions.h"
+#include "LoadDeviceLevelVulkanFunctionsFromExtentions.h"
+#include "GetDeviceQueues.h"
 #endif // ALL_HEADERS

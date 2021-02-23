@@ -1,7 +1,7 @@
-#include "LoadInstanceLevelVulkanFunctionFromExtentions.h"
+#include "LoadInstanceLevelVulkanFunctionsFromExtentions.h"
 
 namespace VAPI {
-	bool LoadInstanceLevelVulkanFunctionFromExtentions(VkInstance					  instance,
+	bool LoadInstanceLevelVulkanFunctionsFromExtentions(VkInstance					  instance,
 													  std::vector<char const*> const& enabled_extensions) {
 #define INSTANCE_LEVEL_VULKAN_FUNCTION_FROM_EXTENSION( name, extension ) for( auto & enabled_extension : enabled_extensions ) { \
 			if( std::string( enabled_extension ) == std::string( extension ) )\

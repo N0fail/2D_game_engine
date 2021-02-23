@@ -5,7 +5,7 @@
 
 namespace VAPI {
 
-	bool LoadInstanceLevelVulkanFunctionFromExtentions(VkInstance, std::vector<char const*> const&);
+	bool LoadInstanceLevelVulkanFunctionsFromExtentions(VkInstance, std::vector<char const*> const&);
 
 } // namespace VAPI
 
