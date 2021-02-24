@@ -4,7 +4,6 @@
 #include "Common.h"
 
 namespace VAPI {
-
 	bool ConnectVulkanLoaderLibrary(LIBRARY_TYPE& vulkan_library);
 
 } // namespace VAPI

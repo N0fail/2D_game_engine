@@ -75,6 +75,9 @@
     <ClCompile Include="GetDeviceQueues.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
+    <ClCompile Include="ReleaseVulkanResources.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vk_platform.h">
@@ -141,6 +144,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="GetDeviceQueues.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ReleaseVulkanResources.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

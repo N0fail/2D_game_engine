@@ -16,4 +16,5 @@
 #include "LoadDeviceLevelVulkanFunctions.h"
 #include "LoadDeviceLevelVulkanFunctionsFromExtentions.h"
 #include "GetDeviceQueues.h"
+#include "ReleaseVulkanResources.h"
 #endif // ALL_HEADERS

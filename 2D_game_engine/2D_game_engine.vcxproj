@@ -159,6 +159,7 @@
     <ClCompile Include="LoadInstanceLevelVulkanFunctionsFromExtentions.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Tools.cpp" />
+    <ClCompile Include="ReleaseVulkanResources.cpp" />
     <ClCompile Include="VulkanFunctions.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +179,7 @@
     <ClInclude Include="LoadInstanceExtentions.h" />
     <ClInclude Include="LoadInstanceLevelVulkanFunctions.h" />
     <ClInclude Include="LoadInstanceLevelVulkanFunctionsFromExtentions.h" />
+    <ClInclude Include="ReleaseVulkanResources.h" />
     <ClInclude Include="Tools.h" />
     <ClInclude Include="vk_platform.h" />
     <ClInclude Include="vulkan.h" />

@@ -48,8 +48,9 @@ int main()
 	CreateLogicalDevice(physical_device, queue_infos, desired_device_extensions, desired_features,	logical_device, queue_create_infos);
 	LoadDeviceLevelVulkanFunctions(logical_device);
 	LoadDeviceLevelVulkanFunctionsFromExtentions(logical_device, desired_device_extensions);
-	std::vector<VkQueue> queues;
-	GetDeviceQueues(logical_device, queue_create_infos, queues);
-	// 241
+	VkQueue graphics_queue, compute_queue;
+	vkGetDeviceQueue(logical_device, queue_create_infos[graphics_queue_family_index].queueFamilyIndex, 0, &graphics_queue);
+	vkGetDeviceQueue(logical_device, queue_create_infos[compute_queue_family_index].queueFamilyIndex, 0, &compute_queue);
+	ReleaseVulkanResources(vulkan_library, instance, logical_device);
 	return 0;
 }

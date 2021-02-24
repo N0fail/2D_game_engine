@@ -1,3 +1,3 @@
 #ifndef VULKAN_DESTROYER
 #define VULKAN_DESTROYER
-#endif
+#endif // VULKAN_DESTROYER
